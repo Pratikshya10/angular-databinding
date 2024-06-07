@@ -1,0 +1,19 @@
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    /*border: 2px solid blue;*/
+    box-shadow: 0 5px 8px 0 rgba(22, 22, 22, 0.2);
+   
+}
+/* #card:hover{
+    transition: width 2s, height 4s
+} */
+
+#card:hover {
+    transform: scale(1.2);
+    transition: all 3s;
+}
